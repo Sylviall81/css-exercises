@@ -58,6 +58,11 @@ li{
 
 .content{
   height: 90%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .footer {
@@ -66,4 +71,9 @@ li{
   background-color: gray;
   display: flex;
   justify-content: space-between;
+  
+}
+
+.footer a{
+color: gainsboro
 }
