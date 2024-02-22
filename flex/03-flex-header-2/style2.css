@@ -2,7 +2,7 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-body {
+ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
@@ -12,10 +12,15 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-
   padding: 8px;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
+ 
+
+  box-sizing: border-box;  
+ 
+  width: 100vw;
+  
 
 }
 
@@ -28,7 +33,7 @@ body {
 }
 
 .logo {
-  border: black solid 1px;
+  border: red solid 1px;
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -47,39 +52,54 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-}
+} 
 
 ul {
-  border: black solid 1px;
-
+  
   list-style-type: none;
 
-  display: inline-flex;
   margin: 0;
-  padding: 8px;
-  inline-size: 60%;
+
   align-items: space-around;
+  gap:10px;
+
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 
 
 }
 
+
+
 .flex-start-container {
-  border: black solid 1px;
+  border: pink solid 1px;
   display:flex;
-  align-items: flex-start;
+  justify-content: flex-start;
   inline-size: 30%;
+  align-items: center;
+  gap:10px;
   
 }
 
 .flex-end-container {
 
 
-  border: black solid 1px;
-  display:flex;
-  align-items: flex-end;
-  inline-size: 20%;
+  border: green solid 1px;
+  
+  inline-size: 25%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap:10px;
+ 
+
   
 
-}
+} 
+
+
+
 
 
