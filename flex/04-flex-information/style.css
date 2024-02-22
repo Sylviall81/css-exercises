@@ -24,3 +24,48 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+body {
+  margin: 0;
+  
+ 
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.horizontal-section{
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+  
+
+}
+
+.info-card{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  width: 20%;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 52px;
+}
+
+.item {
+  width: 200px;
+  text-align: center;
+}
+
+.text {
+  margin-top: 10px;
+  width:70%;
+ 
+}
