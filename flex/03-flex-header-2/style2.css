@@ -33,7 +33,7 @@ you'll learn about it later. */
 }
 
 .logo {
-  border: red solid 1px;
+ 
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -74,7 +74,7 @@ ul {
 
 
 .flex-start-container {
-  border: pink solid 1px;
+  
   display:flex;
   justify-content: flex-start;
   inline-size: 30%;
@@ -86,7 +86,6 @@ ul {
 .flex-end-container {
 
 
-  border: green solid 1px;
   
   inline-size: 25%;
   display: flex;
