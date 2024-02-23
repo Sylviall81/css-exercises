@@ -13,12 +13,22 @@ a{
   font-size: 24px;
 
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
-  justify-content: center;
+  display: flex;
+  align-items: center;/*me falto este*/
  
 }
 
@@ -29,7 +39,7 @@ h1{
 }
 .main-content{
   display: flex;
-  flex: 3 auto;
+  flex: 1;
   
 }
 .footer {
@@ -48,8 +58,6 @@ h1{
   flex-shrink: 0;
   padding: 16px;
 
-  
-
 }
 
 
@@ -57,27 +65,23 @@ h1{
 
 
 .card-container{
+
+  padding: 32px;
   display: flex;
   flex-wrap: wrap;
-  padding: 32px;
-  gap: 3%;
-
-  justify-content: space-around;
+  justify-content: space-around; 
   
- 
- 
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  block-size: 25vh;
-  inline-size: 20vw;
-  flex-basis: auto;
+  block-size: 17vh;
+  inline-size: 17vw;
   padding: 10px;
-  font-size: 0.8rem;
-  box-sizing: border-box;
-  margin: 5 auto;
+  font-size: 0.6rem;
+  margin: 10px; 
+  /* flex-basis: auto; */
 
 }
